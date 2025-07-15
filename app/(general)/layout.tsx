@@ -9,7 +9,7 @@ export default function GeneralLayout({
     <>
       <Navbar/>
       <div>
-      <h1>Hello Root Layout About</h1>
+      <h1>Hello from General Layout About</h1>
       { children }
     </div>
     </>
