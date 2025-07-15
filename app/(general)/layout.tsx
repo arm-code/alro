@@ -1,13 +1,17 @@
+import { Navbar } from "@/components";
 
-export default function AboutLayout({
+export default function GeneralLayout({
  children
 }: {
  children: React.ReactNode;
 }) {
   return (
-    <div>
+    <>
+      <Navbar/>
+      <div>
       <h1>Hello Root Layout About</h1>
       { children }
     </div>
+    </>
   );
 }
