@@ -19,8 +19,11 @@ export const Navbar = () => {
 
         {
           navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="px-2">
-              {item.label}    
+            <Link 
+              key={item.href} 
+              href={item.href} 
+              className="px-2">
+              { item.label }    
             </Link>
           ))
         }
