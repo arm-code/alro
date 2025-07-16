@@ -11,8 +11,8 @@ const navItems = [
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between bg-violetPalette-darker  text-violetPalette-textLight p-4 m-4 rounded-xl shadow-md">
-  <Link href={"/"} className="flex items-center gap-2 hover:text-violetPalette-light transition-colors">
+    <nav className="flex items-center justify-between bg-violet-500 p-4 m-4 rounded-xl shadow-md">
+  <Link href={"/"} className="flex items-center gap-2 hover:text-violet-100 transition-colors">
     <HomeIcon />
     <span className="font-semibold text-lg">Home</span>
   </Link>
